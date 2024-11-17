@@ -1,16 +1,4 @@
-import localFont from "next/font/local";
 import "./globals.css";
-
-const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
-  weight: "100 900",
-});
-const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
-  weight: "100 900",
-});
 
 export const metadata = {
   title: "Create Next App",
@@ -20,10 +8,74 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        {children}
+      <body className="bg-lavender-50 text-gray-900 font-sans">
+        {/* Navigation Bar */}
+        <header className="bg-lavender-100 text-gray-800 shadow sticky top-0 z-50">
+          <div className="container mx-auto flex justify-between items-center p-6">
+            <a
+              href="/"
+              className="text-3xl font-bold tracking-tight text-lavender-900 hover:text-gray-600 transition duration-300"
+            >
+              TapBlog
+            </a>
+            <nav className="space-x-6 text-lg">
+              <a
+                href="/"
+                className="hover:text-gray-600 transition duration-300"
+              >
+                Home
+              </a>
+              <a
+                href="/blog"
+                className="hover:text-gray-600 transition duration-300"
+              >
+                Blogs
+              </a>
+              <a
+                href="/login"
+                className="hover:text-gray-600 transition duration-300"
+              >
+                Login
+              </a>
+            </nav>
+          </div>
+        </header>
+
+        {/* Main Content */}
+        <main className="container mx-auto py-10 px-6 lg:px-20">
+          <section className="bg-white shadow-lg rounded-lg p-8 border border-lavender-200">
+            {children}
+          </section>
+        </main>
+
+        {/* Footer */}
+        <footer className="bg-lavender-100 text-gray-800 py-8">
+          <div className="container mx-auto text-center">
+            <p className="text-sm font-semibold">
+              © {new Date().getFullYear()} Blog Platform. All rights reserved.
+            </p>
+            <div className="mt-4 space-x-6">
+              <a
+                href="/privacy"
+                className="hover:text-lavender-800 transition duration-300"
+              >
+                Privacy Policy
+              </a>
+              <a
+                href="/terms"
+                className="hover:text-lavender-800 transition duration-300"
+              >
+                Terms of Service
+              </a>
+              <a
+                href="/contact"
+                className="hover:text-lavender-800 transition duration-300"
+              >
+                Contact
+              </a>
+            </div>
+          </div>
+        </footer>
       </body>
     </html>
   );

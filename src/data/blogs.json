@@ -1,0 +1,52 @@
+[
+  {
+    "id": 2,
+    "title": "Mastering React: Tips and Tricks",
+    "content": "React is one of the most popular JavaScript libraries. This guide provides tips and tricks to improve your React skills and build better apps.",
+    "author": "janedoe456",
+    "date": "2023-11-10T14:15:00Z",
+    "updatedDate": "2024-11-17T19:56:27.230Z"
+  },
+  {
+    "id": 3,
+    "title": "Understanding JavaScript Closures",
+    "content": "Closures are a fundamental concept in JavaScript. Learn what closures are, why they matter, and how to use them effectively in your code.",
+    "author": "devguru",
+    "date": "2023-11-08T08:00:00Z"
+  },
+  {
+    "id": 4,
+    "title": "Exploring CSS Grid: The Ultimate Layout Tool",
+    "content": "CSS Grid is a powerful layout system. This blog dives into its features and shows how to create responsive and modern layouts.",
+    "author": "frontendfanatic",
+    "date": "2023-11-05T16:45:00Z"
+  },
+  {
+    "id": 5,
+    "title": "Why TypeScript is the Future of JavaScript",
+    "content": "TypeScript offers powerful features for JavaScript developers. Discover why it's becoming the go-to choice for modern development.",
+    "author": "tslover",
+    "date": "2023-11-03T11:20:00Z"
+  },
+  {
+    "id": 6,
+    "title": "Test Blog",
+    "content": "This is a test blog.",
+    "author": "test_user",
+    "date": "2024-11-17T10:32:14.768Z"
+  },
+  {
+    "id": 6,
+    "title": "Sachin Jakhar",
+    "content": "Here is the edited content ",
+    "author": "testuser",
+    "date": "2024-11-17T19:55:12.018Z"
+  },
+  {
+    "id": 7,
+    "title": "this is ",
+    "content": "hellow",
+    "author": "testuser",
+    "date": "2024-11-17T20:03:46.043Z"
+  }
+]
