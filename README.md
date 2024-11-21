@@ -1,36 +1,43 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# TabBlog
 
-## Getting Started
+## Overview
 
-First, run the development server:
+This is a blogging platform built using Next.js, React, and JavaScript. Users can create an account, log in using JWT authentication, and add or read blogs. The website is styled using Tailwind CSS, ensuring a modern and responsive design.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **User Authentication**: Users can sign up, log in, and log out using JSON Web Tokens (JWT).
+- **Blog Management**: Users can add new blog posts and read existing blogs.
+- **Responsive Design**: Styled with Tailwind CSS for a consistent look across devices.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Tech Stack
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Framework**: Next.js
+- **Frontend**: React
+- **Language**: JavaScript
+- **Styling**: Tailwind CSS
+- **Authentication**: JWT (JSON Web Token)
 
-## Learn More
+## How to Run
 
-To learn more about Next.js, take a look at the following resources:
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/sachin3104/TapBlog-NEXT.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd TapBlog-Next
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+4. Start the development server:
+   ```bash
+   npm run dev
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+The app will run locally at `http://localhost:3000`.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+Start sharing your thoughts and reading amazing blogs! 📝✨
